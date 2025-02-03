@@ -86,9 +86,9 @@ p {
     transform: translate(-50%, -50%) scale(1);
 }
 
-.linkedin { background-color: #0077b5; }
-.resume { background-color: #28a745; }
-.github { background-color: #333; }
+.linkedin { background-color: #4c4c4c; }
+.resume { background-color: #4c4c4c; }
+.github { background-color: #4c4c4c; }
 
 .btn:hover {
     transform: translateY(-3px);
