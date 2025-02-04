@@ -5,7 +5,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     text.split("").forEach((char, index) => {
         const span = document.createElement("span");
-        span.textContent = char;
+
+        if (char === " "){
+            span.innerHTML = "&nbsp";
+        } else{
+            span.textContent = char;
+        }
+
         span.classList.add("jiggle");
 
         // Random animation delay for each letter
