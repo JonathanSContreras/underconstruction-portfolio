@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
         span.classList.add("jiggle");
 
-        // Random animation delay for each letter
         span.style.animationDelay = `${Math.random() * 0.5}s`;
 
         textElement.appendChild(span);
